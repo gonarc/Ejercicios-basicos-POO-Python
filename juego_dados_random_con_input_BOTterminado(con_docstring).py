@@ -91,7 +91,7 @@ class Jugadores():
             print("¡EMPATE!")        
         
 miJugada=Jugadores()
-miJugada.nombre_jugadores(input("Nombre jugador 1: "),input("Nombre jugador 2: "))
+miJugada.nombre_jugadores(input("Nombre jugador 1: "),"BOT")
 miJugada.rondas(int(input("¿Cúantas rondas desea jugar? ")))
 
 while miJugada.triunfos_jugador1 <miJugada.rondas_a_jugar and miJugada.triunfos_jugador2 <miJugada.rondas_a_jugar: 
